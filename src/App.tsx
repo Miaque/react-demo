@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="w-full h-screen flex justify-center items-center">
       <div className="flex gap-2">
-        <Input ref={inputRef} />
-        <Button size='small' endIcon={<SendIcon />} onClick={handleClick}>
+        <Input inputRef={inputRef} />
+        <Button size='small' startIcon={<SendIcon />} onClick={handleClick}>
           聚焦输入框
         </Button>
       </div>

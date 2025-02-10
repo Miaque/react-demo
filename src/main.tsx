@@ -1,9 +1,10 @@
+import { CssBaseline } from '@mui/material'
+import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createTheme, ThemeProvider } from '@mui/material/styles'
-import './index.css'
+import 'virtual:svg-icons-register'
 import App from './App.tsx'
-import { CssBaseline } from '@mui/material'
+import './index.css'
 
 const theme = createTheme({
   typography: {
